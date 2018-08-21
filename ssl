@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+DIR="$( cd "$( dirname "$SOURCE" )" && pwd )"
+
+php "$DIR/cli/ssl.php" "$@"
