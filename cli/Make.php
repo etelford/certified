@@ -148,8 +148,6 @@ class Make
 	        $caPemPath, $caKeyPath, $caSrlParam, $csrPath, $crtPath, $confPath
 	    );
 
-	    echo $cmd;
-
 	    $this->cli->run(sprintf(
 	        'openssl x509 -req -sha256 -days 730 -CA %s -CAkey %s%s -in %s -out %s -extensions v3_req -extfile %s',
 	        $caPemPath, $caKeyPath, $caSrlParam, $csrPath, $crtPath, $confPath
