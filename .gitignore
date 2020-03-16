@@ -2,3 +2,4 @@
 composer.lock
 cli/.srl
 vendor
+.DS_Store
