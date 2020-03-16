@@ -1,7 +1,7 @@
 {
     "name": "etelford/ssl-generator",
     "description": "Easily generate trusted self-sign certs from the command line",
-    "type": "CLI",
+    "type": "cli",
     "license": "MIT",
     "authors": [
         {
